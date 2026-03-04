@@ -5,7 +5,7 @@ After configuring AWS CLI, I practiced working with Amazon S3 using CLI commands
 ### Create Bucket
 
 aws s3api create-bucket \
---bucket my-cli-practice-bucket \
+--bucket adx-demo-bucket-18-adi \
 --region ap-south-1 \
 --create-bucket-configuration LocationConstraint=ap-south-1
 
@@ -17,27 +17,27 @@ This command lists all S3 buckets in the AWS account.
 
 ### Upload File
 
-Uploaded a local file from the Downloads folder to the bucket.
-
-aws s3 cp ~/Downloads/test.txt s3://my-cli-practice-bucket/
+aws s3 cp ~/Downloads/test.txt s3://adx-demo-bucket-18-adi/
 
 ### Verify Upload
 
-aws s3 ls s3://my-cli-practice-bucket
+aws s3 ls s3://adx-demo-bucket-18-adi
 
 This confirmed that the file was successfully uploaded.
 
 ### Download File
 
-aws s3 cp s3://my-cli-practice-bucket/test.txt ~/Downloads/
+aws s3 cp s3://adx-demo-bucket-18-adi/test.txt ~/Downloads/
 
 ### Delete File
 
-aws s3 rm s3://my-cli-practice-bucket/test.txt
+aws s3 rm s3://adx-demo-bucket-18-adi/test.txt
 
 ### Delete Bucket
 
-aws s3 rb s3://my-cli-practice-bucket
+aws s3api delete-bucket \
+  --bucket adx-demo-bucket-18-adi \
+  --region ap-south-1
 
 ### Result
 
