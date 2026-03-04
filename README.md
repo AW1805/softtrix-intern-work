@@ -1,15 +1,21 @@
 # Softtrix Internship Work
 
-This repository documents my practical learning and hands-on work during my internship.
+This repository documents my practical work and learning during my internship.
 
-## AWS Services Practiced
+## Services Practiced
 
+- AWS CLI
 - Amazon S3
 - AWS IAM
-- Amazon EC2
+- AWS Lambda
+- Amazon SES
+- Amazon SNS
 
 ## Topics Covered
 
-- S3 bucket creation
-- IAM user management
-- EC2 instance deployment
+- Configuring AWS CLI
+- Managing IAM users and permissions
+- Working with Amazon S3 buckets and objects
+- Creating Lambda functions
+- Sending emails using Amazon SES
+- Event-driven notifications using Amazon SNS
