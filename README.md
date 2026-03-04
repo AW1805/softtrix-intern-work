@@ -1,21 +1,21 @@
 # Softtrix Internship Work
 
-This repository documents my practical work and learning during my internship.
-
-## Services Practiced
-
-- AWS CLI
-- Amazon S3
-- AWS IAM
-- AWS Lambda
-- Amazon SES
-- Amazon SNS
+This repository contains the hands-on tasks I performed during my internship.
 
 ## Topics Covered
 
-- Configuring AWS CLI
-- Managing IAM users and permissions
-- Working with Amazon S3 buckets and objects
-- Creating Lambda functions
-- Sending emails using Amazon SES
-- Event-driven notifications using Amazon SNS
+- AWS CLI configuration
+- Amazon S3 bucket operations using CLI
+- IAM user creation and deletion using CLI
+- Email verification using Amazon SES
+- Sending email using AWS Lambda and SES
+
+## Region Used
+
+ap-south-1 (Mumbai)
+
+## Tools Used
+
+- AWS Management Console
+- AWS CLI
+- Python (boto3)
