@@ -23,11 +23,7 @@ The Lambda function uses **boto3** to send an email using Amazon SES.
 import boto3
 
 def lambda_handler(event, context):
-
-    # Create SES client in Mumbai region
     ses = boto3.client('ses', region_name='ap-south-1')
-
-    # Send email
     response = ses.send_email(
         Source='verified-sender@example.com',
         Destination={
